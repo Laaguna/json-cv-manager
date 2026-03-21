@@ -43,7 +43,12 @@
         {{#if profiles.length}}
           {{#each profiles}}
             {{#if (eq network "LinkedIn")}}
-              <div>{{network}}: {{url}}</div>
+              <div>{{network}}: <a href='{{url}}'>{{url}}</a></div>
+            {{/if}}
+          {{/each}}
+          {{#each profiles}}
+            {{#if (eq network "GitHub")}}
+              <div>{{network}}: <a href='{{url}}'>{{url}}</a></div>
             {{/if}}
           {{/each}}
         {{/if}}
