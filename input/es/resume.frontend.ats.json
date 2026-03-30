@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Sebastian Camilo Mahecha Pardo",
-    "label": "Ingeniero Frontend Senior (React, TypeScript, Arquitectura Frontend)",
+    "label": "Ingeniero Frontend (React, TypeScript, Arquitectura Frontend)",
     "email": "camimahe.12@gmail.com",
     "phone": "310 788 3332",
     "url": "https://camilomahechadev.com",
-    "summary": "Ingeniero Frontend Senior con +3 años de experiencia en construcción de aplicaciones web y móviles escalables, mantenibles y orientadas al rendimiento. Especialista en React y TypeScript con enfoque en arquitectura frontend, Clean Architecture, optimización de renderizado y gestión de estado con TanStack Query. Experiencia comprobable liderando refactorizaciones de código, definiendo estrategias de testing automatizado y mentoreando perfiles junior. Orientado a tomar decisiones técnicas estratégicas que impacten el producto y al equipo.",
+    "summary": "Ingeniero Frontend con +3 años de experiencia en construcción de aplicaciones web y móviles escalables, mantenibles y orientadas al rendimiento. Especialista en React y TypeScript con enfoque en arquitectura frontend, Clean Architecture, optimización de renderizado y gestión de estado con TanStack Query. Experiencia comprobable liderando refactorizaciones de código, definiendo estrategias de testing automatizado y mentoreando perfiles junior. Orientado a tomar decisiones técnicas estratégicas que impacten el producto y al equipo.",
     "location": { "city": "Bogotá", "countryCode": "CO" },
     "profiles": [
       { "network": "LinkedIn", "url": "https://linkedin.com/in/sebastian-camilo-mahecha" },
@@ -17,7 +17,7 @@
   "work": [
     {
       "name": "Sense Digital SAS",
-      "position": "Ingeniero Frontend Senior",
+      "position": "Ingeniero Frontend",
       "startDate": "2023-07-01",
       "location": "Colombia (Remoto)",
       "summary": "Arquitectura frontend y desarrollo de aplicaciones corporativas escalables utilizando React, TypeScript y TanStack Query, con enfoque en Clean Architecture, rendimiento y liderazgo técnico.",

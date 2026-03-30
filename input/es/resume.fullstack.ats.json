@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Sebastian Camilo Mahecha Pardo",
-    "label": "Ingeniero FullStack Senior (React, TypeScript, Django, Arquitectura)",
+    "label": "Ingeniero FullStack (React, TypeScript, Django, Arquitectura)",
     "email": "camimahe.12@gmail.com",
     "phone": "310 788 3332",
     "url": "https://camilomahechadev.com",
-    "summary": "Ingeniero FullStack Senior con +3 años de experiencia construyendo aplicaciones web escalables y orientadas al rendimiento. Especialista en frontend con React y TypeScript, y backend con Python/Django (DRF), PostgreSQL y Celery. Experiencia comprobable en arquitecturas fullstack con Clean Architecture, APIs RESTful, integraciones con OAuth y webhooks, y liderazgo técnico en decisiones de arquitectura y estándares de equipo.",
+    "summary": "Ingeniero FullStack con +3 años de experiencia construyendo aplicaciones web escalables y orientadas al rendimiento. Especialista en frontend con React y TypeScript, y backend con Python/Django (DRF), PostgreSQL y Celery. Experiencia comprobable en arquitecturas fullstack con Clean Architecture, APIs RESTful, integraciones con OAuth y webhooks, y liderazgo técnico en decisiones de arquitectura y estándares de equipo.",
     "location": { "city": "Bogotá", "countryCode": "CO" },
     "profiles": [
       { "network": "LinkedIn", "url": "https://linkedin.com/in/sebastian-camilo-mahecha" },
@@ -17,7 +17,7 @@
   "work": [
     {
       "name": "Sense Digital SAS",
-      "position": "Ingeniero FullStack Senior",
+      "position": "Ingeniero FullStack",
       "startDate": "2023-07-01",
       "location": "Colombia (Remoto)",
       "summary": "Desarrollo fullstack de aplicaciones corporativas con React/TypeScript en frontend y Python/Django en backend. Responsable de arquitectura frontend, diseño de APIs RESTful, integraciones externas con OAuth/webhooks, tareas asíncronas con Celery y liderazgo técnico del equipo.",

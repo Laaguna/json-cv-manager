@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Sebastian Camilo Mahecha Pardo",
-    "label": "Ingeniero Mobile Senior (Flutter, Clean Architecture, Arquitectura Frontend)",
+    "label": "Ingeniero Mobile (Flutter, Clean Architecture, Arquitectura Frontend)",
     "email": "camimahe.12@gmail.com",
     "phone": "310 788 3332",
     "url": "https://camilomahechadev.com",
-    "summary": "Ingeniero Mobile Senior con +3 años de experiencia construyendo aplicaciones móviles multiplataforma escalables y orientadas al rendimiento. Especialista en Flutter con enfoque en Clean Architecture, gestión de estado con Provider y Freezed, y arquitecturas offline-first. Experiencia comprobable liderando refactorizaciones de código FlutterFlow hacia arquitecturas limpias desacopladas, definiendo estándares técnicos y optimizando performance mobile. Orientado a tomar decisiones técnicas estratégicas que impacten el producto y al equipo.",
+    "summary": "Ingeniero Mobile con +3 años de experiencia construyendo aplicaciones móviles multiplataforma escalables y orientadas al rendimiento. Especialista en Flutter con enfoque en Clean Architecture, gestión de estado con Provider y Freezed, y arquitecturas offline-first. Experiencia comprobable liderando refactorizaciones de código FlutterFlow hacia arquitecturas limpias desacopladas, definiendo estándares técnicos y optimizando performance mobile. Orientado a tomar decisiones técnicas estratégicas que impacten el producto y al equipo.",
     "location": { "city": "Bogotá", "countryCode": "CO" },
     "profiles": [
       { "network": "LinkedIn", "url": "https://linkedin.com/in/sebastian-camilo-mahecha" },
@@ -17,7 +17,7 @@
   "work": [
     {
       "name": "Sense Digital SAS",
-      "position": "Ingeniero Mobile Senior",
+      "position": "Ingeniero Mobile",
       "startDate": "2023-07-01",
       "location": "Colombia (Remoto)",
       "summary": "Liderazgo técnico y desarrollo de aplicaciones móviles con Flutter, arquitecturas Clean Architecture, gestión de estado con Provider y Freezed, y optimización de performance. Responsable de decisiones de arquitectura, refactorización integral y estándares técnicos del equipo.",
