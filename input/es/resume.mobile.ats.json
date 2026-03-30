@@ -1,0 +1,127 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Sebastian Camilo Mahecha Pardo",
+    "label": "Ingeniero Mobile Senior (Flutter, Clean Architecture, Arquitectura Frontend)",
+    "email": "camimahe.12@gmail.com",
+    "phone": "310 788 3332",
+    "url": "https://camilomahechadev.com",
+    "summary": "Ingeniero Mobile Senior con +3 años de experiencia construyendo aplicaciones móviles multiplataforma escalables y orientadas al rendimiento. Especialista en Flutter con enfoque en Clean Architecture, gestión de estado con Provider y Freezed, y arquitecturas offline-first. Experiencia comprobable liderando refactorizaciones de código FlutterFlow hacia arquitecturas limpias desacopladas, definiendo estándares técnicos y optimizando performance mobile. Orientado a tomar decisiones técnicas estratégicas que impacten el producto y al equipo.",
+    "location": { "city": "Bogotá", "countryCode": "CO" },
+    "profiles": [
+      { "network": "LinkedIn", "url": "https://linkedin.com/in/sebastian-camilo-mahecha" },
+      { "network": "GitHub", "url": "https://github.com/laaguna" },
+      { "network": "Website", "url": "https://camilomahechadev.com" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Sense Digital SAS",
+      "position": "Ingeniero Mobile Senior",
+      "startDate": "2023-07-01",
+      "location": "Colombia (Remoto)",
+      "summary": "Liderazgo técnico y desarrollo de aplicaciones móviles con Flutter, arquitecturas Clean Architecture, gestión de estado con Provider y Freezed, y optimización de performance. Responsable de decisiones de arquitectura, refactorización integral y estándares técnicos del equipo.",
+      "highlights": [
+        "Ejecuté el refactor integral de una aplicación corporativa mobile migrando desde código FlutterFlow con estado mutable (FFAppState) hacia Clean Architecture con Provider + Freezed y patrón Result<T>, logrando una base de código predecible, tipable y testable.",
+        "Reduje el cold start de la app en un 45% aplicando lazy loading por módulos, tree shaking de dependencias y cache inteligente de configuración de campos con TTL, reduciendo el tiempo de carga inicial de 3.2s a 1.8s en dispositivos de gama media.",
+        "Implementé inyección de dependencias en Flutter con get_it, logrando alta desacopilación y testabilidad del código en use cases independientes.",
+        "Mentoreé técnicamente a desarrolladores junior y definí estándares de código y arquitectura para el equipo.",
+        "Propuse y ejecuté la migración de la arquitectura de estado desde FFAppState (mutable, fuertemente acoplado) a Provider + Freezed con patrón Result<T>, reduciendo la deuda técnica en un 30%.",
+        "Definí y documenté los estándares técnicos del equipo móvil (estructura por feature, convenciones de commits, patrón Provider + Freezed con Result<T>), reduciendo el tiempo de onboarding de nuevos desarrolladores de 2 semanas a 4 días.",
+        "Implementé una estrategia de testing que permitió migrar de código difícil de testear (widgets de ~1400 líneas en FlutterFlow) hacia lógica de negocio en use cases desacoplados, habilitando tests unitarios con Mockito.",
+        "Diseñé e implementé un sistema de cache híbrido para configuración de campos dinámicos con estrategia de 3 niveles (memoria → SharedPreferences → API) y TTL de 60 minutos, reduciendo latencia de apertura de módulos previamente cargados."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional",
+      "area": "Desarrollo de Apps Móviles",
+      "studyType": "Diplomado",
+      "location": "Bogotá, CO",
+      "startDate": "2024-01",
+      "endDate": "2024-12"
+    },
+    {
+      "institution": "SENA - Servicio Nacional de Aprendizaje",
+      "area": "Desarrollo de videojuegos con C#",
+      "studyType": "Tecnólogo",
+      "location": "Bogotá, CO",
+      "startDate": "2020-04",
+      "endDate": "2022-06"
+    },
+    {
+      "institution": "SENA - Servicio Nacional de Aprendizaje",
+      "area": "Desarrollo de Software con C#",
+      "studyType": "Técnico",
+      "location": "Bogotá, CO",
+      "startDate": "2017-02",
+      "endDate": "2018-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Mobile",
+      "keywords": [
+        "Flutter",
+        "Dart",
+        "BLoC Pattern",
+        "Provider",
+        "Freezed",
+        "GetIt",
+        "Riverpod",
+        "Clean Architecture",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Estado & Datos",
+      "keywords": [
+        "TanStack Query",
+        "Redux",
+        "State Management",
+        "Firebase",
+        "REST APIs",
+        "GraphQL",
+        "Offline-first"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "Microfrontends",
+        "Atomic Design",
+        "Custom Hooks"
+      ]
+    },
+    {
+      "name": "Testing & Calidad",
+      "keywords": [
+        "Jest",
+        "React Testing Library",
+        "Playwright",
+        "Flutter Test",
+        "Mockito",
+        "Code Reviews"
+      ]
+    },
+    {
+      "name": "Herramientas",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Dart",
+        "Android Studio",
+        "VS Code",
+        "Firebase",
+        "CI/CD"
+      ]
+    }
+  ],
+  "projects": [],
+  "awards": [],
+  "languages": []
+}
