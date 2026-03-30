@@ -1,0 +1,134 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Sebastian Camilo Mahecha Pardo",
+    "label": "Ingeniero FullStack Senior (React, TypeScript, Django, Arquitectura)",
+    "email": "camimahe.12@gmail.com",
+    "phone": "310 788 3332",
+    "url": "https://camilomahechadev.com",
+    "summary": "Ingeniero FullStack Senior con +3 años de experiencia construyendo aplicaciones web escalables y orientadas al rendimiento. Especialista en frontend con React y TypeScript, y backend con Python/Django (DRF), PostgreSQL y Celery. Experiencia comprobable en arquitecturas fullstack con Clean Architecture, APIs RESTful, integraciones con OAuth y webhooks, y liderazgo técnico en decisiones de arquitectura y estándares de equipo.",
+    "location": { "city": "Bogotá", "countryCode": "CO" },
+    "profiles": [
+      { "network": "LinkedIn", "url": "https://linkedin.com/in/sebastian-camilo-mahecha" },
+      { "network": "GitHub", "url": "https://github.com/laaguna" },
+      { "network": "Website", "url": "https://camilomahechadev.com" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Sense Digital SAS",
+      "position": "Ingeniero FullStack Senior",
+      "startDate": "2023-07-01",
+      "location": "Colombia (Remoto)",
+      "summary": "Desarrollo fullstack de aplicaciones corporativas con React/TypeScript en frontend y Python/Django en backend. Responsable de arquitectura frontend, diseño de APIs RESTful, integraciones externas con OAuth/webhooks, tareas asíncronas con Celery y liderazgo técnico del equipo.",
+      "highlights": [
+        "Lideré el refactor integral de la aplicación implementando Clean Architecture e inyección de dependencias en frontend, reduciendo la deuda técnica en un 25% y logrando alta desacopilación entre capas.",
+        "Mejoré el tiempo de renderizado en un 75% en módulos de formularios dinámicos de alta complejidad, aplicando state extraction y state reduction en React para eliminar ciclos de renderizado innecesarios.",
+        "Implementé y optimicé APIs backend con Python/Django REST Framework, diseñando endpoints RESTful con paginación, filtros dinámicos y normalización de datos, mejorando los tiempos de respuesta del servidor.",
+        "Diseñé e implementé tareas asíncronas con Celery y Redis, procesando operaciones pesadas como escaneos de IA, envío de notificaciones y refresh de tokens OAuth, reduciendo el tiempo de respuesta de operaciones críticas de segundos a milisegundos.",
+        "Implementé integraciones con APIs externas (Outlook, Kommo) usando OAuth 2.0 y webhooks, procesando eventos en tiempo real y sincronizando datos entre sistemas de forma confiable.",
+        "Mentoreé técnicamente a desarrolladores junior y definí estándares de código para el equipo, reduciendo el tiempo de onboarding de nuevos desarrolladores de 2 semanas a 5 días.",
+        "Propuse e implementé la adopción de TypeScript strict mode en el proyecto, eliminando más de 200 type errors en runtime y reduciendo bugs reportados en producción por inconsistencias de datos en un 35%.",
+        "Desarrollé librerías internas de componentes reutilizables y custom hooks que estandarizaron el diseño y aceleraron el desarrollo de nuevas vistas en un 30%.",
+        "Definí e implementé la estrategia de testing automatizado (unitarias con Jest y React Testing Library, E2E con Playwright) asegurando la estabilidad de funciones críticas del sistema."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional",
+      "area": "Desarrollo de Apps Móviles",
+      "studyType": "Diplomado",
+      "location": "Bogotá, CO",
+      "startDate": "2024-01",
+      "endDate": "2024-12"
+    },
+    {
+      "institution": "SENA - Servicio Nacional de Aprendizaje",
+      "area": "Desarrollo de videojuegos con C#",
+      "studyType": "Tecnólogo",
+      "location": "Bogotá, CO",
+      "startDate": "2020-04",
+      "endDate": "2022-06"
+    },
+    {
+      "institution": "SENA - Servicio Nacional de Aprendizaje",
+      "area": "Desarrollo de Software con C#",
+      "studyType": "Técnico",
+      "location": "Bogotá, CO",
+      "startDate": "2017-02",
+      "endDate": "2018-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "TanStack Query",
+        "Redux",
+        "React Router",
+        "HTML5",
+        "CSS3",
+        "Sass"
+      ]
+    },
+    {
+      "name": "Backend",
+      "keywords": [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "FastAPI",
+        "PostgreSQL",
+        "pgvector",
+        "Celery",
+        "Redis",
+        "APIs REST",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "Arquitectura & Patrones",
+      "keywords": [
+        "Clean Architecture",
+        "Repository Pattern",
+        "Dependency Injection",
+        "Atomic Design",
+        "Separación por dominios",
+        "Microfrontends",
+        "Custom Hooks"
+      ]
+    },
+    {
+      "name": "Testing & Calidad",
+      "keywords": [
+        "Jest",
+        "React Testing Library",
+        "Playwright",
+        "Pytest",
+        "Code Reviews",
+        "CI/CD"
+      ]
+    },
+    {
+      "name": "Herramientas",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "Docker Compose",
+        "Node.js",
+        "Storybook",
+        "VS Code",
+        "CI/CD"
+      ]
+    }
+  ],
+  "projects": [],
+  "awards": [],
+  "languages": []
+}
