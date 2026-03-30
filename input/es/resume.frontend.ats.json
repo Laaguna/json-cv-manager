@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Sebastian Camilo Mahecha Pardo",
+    "label": "Ingeniero Frontend SemiSenior / Senior (React, TypeScript, Arquitectura Frontend)",
+    "email": "camimahe.12@gmail.com",
+    "phone": "310 788 3332",
+    "url": "https://camilomahechadev.com",
+    "summary": "Ingeniero Frontend SemiSenior con +3 años de experiencia en construcción de aplicaciones web y móviles escalables, mantenibles y orientadas al rendimiento. Especialista en React y TypeScript con enfoque en arquitectura frontend, Clean Architecture, optimización de renderizado y gestión de estado con TanStack Query. Experiencia comprobable liderando refactorizaciones de código, definiendo estrategias de testing automatizado y mentoreando perfiles junior. Orientado a tomar decisiones técnicas estratégicas que impacten el producto y al equipo.",
+    "location": { "city": "Bogotá", "countryCode": "CO" },
+    "profiles": [
+      { "network": "LinkedIn", "url": "https://linkedin.com/in/sebastian-camilo-mahecha" },
+      { "network": "GitHub", "url": "https://github.com/laaguna" },
+      { "network": "Website", "url": "https://camilomahechadev.com" }
+    ]
+  },
+  "work": [
+    {
+      "name": "Sense Digital SAS",
+      "position": "Ingeniero Frontend Senior",
+      "startDate": "2023-07-01",
+      "location": "Colombia (Remoto)",
+      "summary": "Arquitectura frontend y desarrollo de aplicaciones corporativas escalables utilizando React, TypeScript y TanStack Query, con enfoque en Clean Architecture, rendimiento y liderazgo técnico.",
+      "highlights": [
+        "Lideré el refactor integral de la aplicación principal implementando Clean Architecture e inyección de dependencias, logrando una base de código altamente desacoplada y reduciendo la deuda técnica.",
+        "Mejoré el tiempo de renderizado en un 75% en módulos de formularios dinámicos de alta complejidad, aplicando patrones de state extraction y state reduction en React para eliminar ciclos de renderizado innecesarios.",
+        "Diseñé e implementé una librería interna de componentes UI reutilizables y custom hooks, estandarizando el diseño y acelerando el tiempo de desarrollo de nuevas vistas en todo el equipo.",
+        "Gestioné el estado global y asíncrono utilizando TanStack Query (queries, mutations, cache, invalidation, optimistic updates), soportando más de 1.000 registros en tiempo real.",
+        "Definí e implementé la estrategia de cobertura de pruebas automatizadas (unitarias con Jest y React Testing Library, E2E con Playwright), asegurando la estabilidad de funciones críticas.",
+        "Mentoreé técnicamente a desarrolladores junior: revisión de PRs, definición de estándares, buenas prácticas de testing y arquitectura.",
+        "Propuse y apliqué patrones de diseño Clean Architecture y Repository Pattern, reduciendo la deuda técnica en un 25%.",
+        "Definí y documenté los estándares técnicos del equipo mediante RFCs internos cubriendo arquitectura de estado, convenciones de commits y estructura de carpetas, reduciendo el tiempo de onboarding de nuevos desarrolladores de 2 semanas a 5 días.",
+        "Propuse e implementé la adopción de TypeScript strict mode en el proyecto, eliminando más de 200 type errors en runtime y reduciendo bugs reportados en producción por inconsistencias de datos en un 35%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional",
+      "area": "Desarrollo de Apps Móviles",
+      "studyType": "Diplomado",
+      "location": "Bogotá, CO",
+      "startDate": "2024-01",
+      "endDate": "2024-12"
+    },
+    {
+      "institution": "SENA - Servicio Nacional de Aprendizaje",
+      "area": "Desarrollo de videojuegos con C#",
+      "studyType": "Tecnólogo",
+      "location": "Bogotá, CO",
+      "startDate": "2020-04",
+      "endDate": "2022-06"
+    },
+    {
+      "institution": "SENA - Servicio Nacional de Aprendizaje",
+      "area": "Desarrollo de Software con C#",
+      "studyType": "Técnico",
+      "location": "Bogotá, CO",
+      "startDate": "2017-02",
+      "endDate": "2018-12"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "TanStack Query",
+        "Redux",
+        "React Router",
+        "HTML5",
+        "CSS3",
+        "Sass"
+      ]
+    },
+    {
+      "name": "Arquitectura & Patrones",
+      "keywords": [
+        "Clean Architecture",
+        "Repository Pattern",
+        "Atomic Design",
+        "Separación por dominios",
+        "Microfrontends",
+        "Dependency Injection",
+        "Custom Hooks"
+      ]
+    },
+    {
+      "name": "Testing & Calidad",
+      "keywords": [
+        "Jest",
+        "React Testing Library",
+        "Playwright",
+        "Pruebas E2E",
+        "Code Reviews",
+        "Gitflow"
+      ]
+    },
+    {
+      "name": "Herramientas",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Node.js",
+        "Storybook",
+        "VS Code",
+        "Vite",
+        "CI/CD"
+      ]
+    }
+  ],
+  "projects": [],
+  "awards": [],
+  "languages": []
+}
