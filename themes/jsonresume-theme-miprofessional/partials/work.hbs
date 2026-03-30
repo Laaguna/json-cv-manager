@@ -1,16 +1,16 @@
 {{#if resume.work.length}}
   <section>
-    <span class="section-name">Experience</span>
+    <span class="section-name">Experiencia</span>
     {{#each resume.work}}
       <div class='work-item'>
         <div class='work-header'>
           <div>
             <span class='position'>{{position}}</span>
-            <span class='company'> at {{name}}</span>
+            <span class='company'> en {{name}}</span>
           </div>
           <span class='date'>
             <time datetime="{{startDate}}">{{MONTH_YEAR startDate}}</time> —
-            {{#if endDate}}<time datetime="{{endDate}}">{{MONTH_YEAR endDate}}</time>{{else}}Present{{/if}}
+            {{#if endDate}}<time datetime="{{endDate}}">{{MONTH_YEAR endDate}}</time>{{else}}Actual{{/if}}
           </span>
         </div>
         {{#if location}}

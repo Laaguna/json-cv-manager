@@ -1,13 +1,13 @@
 {{#if resume.education.length}}
   <section>
-    <span class="section-name">Education</span>
+    <span class="section-name">Educación</span>
     {{#each resume.education}}
       <div class='education-item'>
         <div class='education-header'>
           <span class='institution'>{{institution}}</span>
           <span class='date'>
             <time datetime="{{startDate}}">{{MONTH_YEAR startDate}}</time> —
-            {{#if endDate}}<time datetime="{{endDate}}">{{MONTH_YEAR endDate}}</time>{{else}}Present{{/if}}
+            {{#if endDate}}<time datetime="{{endDate}}">{{MONTH_YEAR endDate}}</time>{{else}}Actual{{/if}}
           </span>
         </div>
         <div class='area'>{{area}}{{#if studyType}} - {{studyType}}{{/if}}</div>
